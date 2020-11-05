@@ -13,6 +13,15 @@
 		A0E76DEA254DF594004E86A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E76DE8254DF594004E86A4 /* Main.storyboard */; };
 		A0E76DEC254DF595004E86A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E76DEB254DF595004E86A4 /* Assets.xcassets */; };
 		A0E76DEF254DF595004E86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E76DED254DF595004E86A4 /* LaunchScreen.storyboard */; };
+		A0E76DF7254DFCAF004E86A4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DF6254DFCAF004E86A4 /* DashboardView.swift */; };
+		A0E76DF9254DFCBE004E86A4 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DF8254DFCBE004E86A4 /* SignupView.swift */; };
+		A0E76DFF254E420C004E86A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DFE254E420C004E86A4 /* TableViewCell.swift */; };
+		A0E76E04254E42DF004E86A4 /* facetime.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E00254E42DE004E86A4 /* facetime.png */; };
+		A0E76E05254E42DF004E86A4 /* arcade.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E01254E42DE004E86A4 /* arcade.png */; };
+		A0E76E06254E42DF004E86A4 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E02254E42DE004E86A4 /* tv.png */; };
+		A0E76E07254E42DF004E86A4 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E03254E42DF004E86A4 /* appstore.png */; };
+		A0E76E09254E4AA5004E86A4 /* detailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76E08254E4AA5004E86A4 /* detailPage.swift */; };
+		A0E76E0D254F46A9004E86A4 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76E0C254F46A9004E86A4 /* AddEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		A0E76DEB254DF595004E86A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E76DEE254DF595004E86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E76DF0254DF595004E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E76DF6254DFCAF004E86A4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A0E76DF8254DFCBE004E86A4 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		A0E76DFE254E420C004E86A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A0E76E00254E42DE004E86A4 /* facetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facetime.png; sourceTree = "<group>"; };
+		A0E76E01254E42DE004E86A4 /* arcade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arcade.png; sourceTree = "<group>"; };
+		A0E76E02254E42DE004E86A4 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		A0E76E03254E42DF004E86A4 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		A0E76E08254E4AA5004E86A4 /* detailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPage.swift; sourceTree = "<group>"; };
+		A0E76E0C254F46A9004E86A4 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +77,17 @@
 				A0E76DE2254DF594004E86A4 /* AppDelegate.swift */,
 				A0E76DE4254DF594004E86A4 /* SceneDelegate.swift */,
 				A0E76DE6254DF594004E86A4 /* ViewController.swift */,
+				A0E76DFE254E420C004E86A4 /* TableViewCell.swift */,
 				A0E76DE8254DF594004E86A4 /* Main.storyboard */,
+				A0E76E08254E4AA5004E86A4 /* detailPage.swift */,
+				A0E76DF6254DFCAF004E86A4 /* DashboardView.swift */,
+				A0E76E0C254F46A9004E86A4 /* AddEvent.swift */,
+				A0E76DF8254DFCBE004E86A4 /* SignupView.swift */,
 				A0E76DEB254DF595004E86A4 /* Assets.xcassets */,
+				A0E76E03254E42DF004E86A4 /* appstore.png */,
+				A0E76E01254E42DE004E86A4 /* arcade.png */,
+				A0E76E00254E42DE004E86A4 /* facetime.png */,
+				A0E76E02254E42DE004E86A4 /* tv.png */,
 				A0E76DED254DF595004E86A4 /* LaunchScreen.storyboard */,
 				A0E76DF0254DF595004E86A4 /* Info.plist */,
 			);
@@ -126,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E76DEF254DF595004E86A4 /* LaunchScreen.storyboard in Resources */,
+				A0E76E04254E42DF004E86A4 /* facetime.png in Resources */,
+				A0E76E07254E42DF004E86A4 /* appstore.png in Resources */,
+				A0E76E05254E42DF004E86A4 /* arcade.png in Resources */,
 				A0E76DEC254DF595004E86A4 /* Assets.xcassets in Resources */,
 				A0E76DEA254DF594004E86A4 /* Main.storyboard in Resources */,
+				A0E76E06254E42DF004E86A4 /* tv.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E76DE7254DF594004E86A4 /* ViewController.swift in Sources */,
+				A0E76DF7254DFCAF004E86A4 /* DashboardView.swift in Sources */,
 				A0E76DE3254DF594004E86A4 /* AppDelegate.swift in Sources */,
+				A0E76E09254E4AA5004E86A4 /* detailPage.swift in Sources */,
+				A0E76DFF254E420C004E86A4 /* TableViewCell.swift in Sources */,
+				A0E76E0D254F46A9004E86A4 /* AddEvent.swift in Sources */,
 				A0E76DE5254DF594004E86A4 /* SceneDelegate.swift in Sources */,
+				A0E76DF9254DFCBE004E86A4 /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
