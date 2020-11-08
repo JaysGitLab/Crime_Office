@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A018FD86255778A500D2F363 /* addCommentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018FD85255778A500D2F363 /* addCommentPage.swift */; };
+		A018FD8A2557D4A500D2F363 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018FD892557D4A500D2F363 /* AddEvent.swift */; };
 		A0E76DE3254DF594004E86A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DE2254DF594004E86A4 /* AppDelegate.swift */; };
 		A0E76DE5254DF594004E86A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DE4254DF594004E86A4 /* SceneDelegate.swift */; };
 		A0E76DE7254DF594004E86A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76DE6254DF594004E86A4 /* ViewController.swift */; };
@@ -21,10 +23,11 @@
 		A0E76E06254E42DF004E86A4 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E02254E42DE004E86A4 /* tv.png */; };
 		A0E76E07254E42DF004E86A4 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E76E03254E42DF004E86A4 /* appstore.png */; };
 		A0E76E09254E4AA5004E86A4 /* detailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76E08254E4AA5004E86A4 /* detailPage.swift */; };
-		A0E76E0D254F46A9004E86A4 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E76E0C254F46A9004E86A4 /* AddEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A018FD85255778A500D2F363 /* addCommentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCommentPage.swift; sourceTree = "<group>"; };
+		A018FD892557D4A500D2F363 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
 		A0E76DDF254DF594004E86A4 /* CrimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E76DE2254DF594004E86A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E76DE4254DF594004E86A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		A0E76E02254E42DE004E86A4 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
 		A0E76E03254E42DF004E86A4 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 		A0E76E08254E4AA5004E86A4 /* detailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPage.swift; sourceTree = "<group>"; };
-		A0E76E0C254F46A9004E86A4 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,10 @@
 				A0E76DE6254DF594004E86A4 /* ViewController.swift */,
 				A0E76DFE254E420C004E86A4 /* TableViewCell.swift */,
 				A0E76DE8254DF594004E86A4 /* Main.storyboard */,
+				A018FD892557D4A500D2F363 /* AddEvent.swift */,
+				A018FD85255778A500D2F363 /* addCommentPage.swift */,
 				A0E76E08254E4AA5004E86A4 /* detailPage.swift */,
 				A0E76DF6254DFCAF004E86A4 /* DashboardView.swift */,
-				A0E76E0C254F46A9004E86A4 /* AddEvent.swift */,
 				A0E76DF8254DFCBE004E86A4 /* SignupView.swift */,
 				A0E76DEB254DF595004E86A4 /* Assets.xcassets */,
 				A0E76E03254E42DF004E86A4 /* appstore.png */,
@@ -174,9 +177,10 @@
 				A0E76DE3254DF594004E86A4 /* AppDelegate.swift in Sources */,
 				A0E76E09254E4AA5004E86A4 /* detailPage.swift in Sources */,
 				A0E76DFF254E420C004E86A4 /* TableViewCell.swift in Sources */,
-				A0E76E0D254F46A9004E86A4 /* AddEvent.swift in Sources */,
 				A0E76DE5254DF594004E86A4 /* SceneDelegate.swift in Sources */,
+				A018FD8A2557D4A500D2F363 /* AddEvent.swift in Sources */,
 				A0E76DF9254DFCBE004E86A4 /* SignupView.swift in Sources */,
+				A018FD86255778A500D2F363 /* addCommentPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL2DZC8LZR;
 				INFOPLIST_FILE = CrimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL2DZC8LZR;
 				INFOPLIST_FILE = CrimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

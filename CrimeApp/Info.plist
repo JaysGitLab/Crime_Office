@@ -61,8 +61,8 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>Using for Camera</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Using for Gallary</string>
+	<string>Need to visit Camera</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Need to visit Gallary</string>
 </dict>
 </plist>

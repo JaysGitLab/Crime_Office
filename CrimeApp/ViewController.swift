@@ -37,12 +37,8 @@ class ViewController: UIViewController {
         }
         
         else {
-            indexOfUser = username_list.firstIndex(of: username.text!)
-            
-            if username.text == username_list[indexOfUser] && password.text == password_list[indexOfUser] {
-                performSegue(withIdentifier: "SigninLink", sender: self)
-
-                let alert = UIAlertController(title: "Login Successful!", message: "Hello, \(username.text!)", preferredStyle: .alert)
+            if username_list.contains(username.text!) == false {
+                let alert = UIAlertController(title: "Login Failed!", message: "Your username doesn't exist!", preferredStyle: .alert)
 
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
 
@@ -51,14 +47,31 @@ class ViewController: UIViewController {
                 self.present(alert, animated: true, completion: nil)
             }
             else {
-                let alert = UIAlertController(title: "Login Failed!", message: "Wrong username or password", preferredStyle: .alert)
+                indexOfUser = username_list.firstIndex(of: username.text!)
+                
+                if username.text == username_list[indexOfUser] && password.text == password_list[indexOfUser] {
+                    performSegue(withIdentifier: "SigninLink", sender: self)
 
-                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    let alert = UIAlertController(title: "Login Successful!", message: "Hello, \(username.text!)", preferredStyle: .alert)
 
-                alert.addAction(okAction)
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
 
-                self.present(alert, animated: true, completion: nil)
+                    alert.addAction(okAction)
+
+                    self.present(alert, animated: true, completion: nil)
+                }
+                else {
+                    let alert = UIAlertController(title: "Login Failed!", message: "Wrong username or password", preferredStyle: .alert)
+
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+
+                    alert.addAction(okAction)
+
+                    self.present(alert, animated: true, completion: nil)
+                }
+                
             }
+            
             
         }
         

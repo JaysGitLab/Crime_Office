@@ -33,8 +33,8 @@ class DashboardView: UIViewController, UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: TableViewCell = tableView.dequeueReusableCell(withIdentifier: "eventCell") as! TableViewCell
         
-        cell.mainLabel?.text = self.mainArray[indexPath.row]
-        cell.detailCell?.text = self.detailArray[indexPath.row]
+        cell.mainLabel?.text = self.detailArray[indexPath.row]
+        cell.detailCell?.text = self.mainArray[indexPath.row]
         cell.imageView?.image = UIImage(named: self.imageArray[indexPath.row])
         
         return cell
